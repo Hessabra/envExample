@@ -3,7 +3,12 @@
 	"displayName": "envExample",
 	"description": "A Visual Studio Code extension that updates the env.example file automatically",
 	"author": "Essabrari Hafsa",
+	"publisher": "HafsaEssabrari",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Hessabra/envExample"
+	},
 	"homepage": "https://github.com/Hessabra/envExample#readme",
 	"version": "0.0.1",
 	"engines": {
