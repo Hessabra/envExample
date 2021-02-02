@@ -2,6 +2,7 @@
 	"name": "extension",
 	"displayName": "envExample",
 	"description": "A Visual Studio Code extension that updates the env.example file automatically",
+	"icon": "images/envExample.png",
 	"author": "Essabrari Hafsa",
 	"publisher": "HafsaEssabrari",
 	"license": "MIT",
