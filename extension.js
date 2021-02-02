@@ -44,6 +44,7 @@ function activate() {
 		let pwd = textEditor.document.fileName.split('/')
 		if (textEditor && pwd.slice(-1)[0] === ".env") {
 			pwd.pop()
+			UpdateEnvExample(pwd, vscode.window.activeTextEditor)
 			vscode.workspace.onWillSaveTextDocument((e) => UpdateEnvExample(pwd, e))
 		}
 	});
